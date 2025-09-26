@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 70vh;
+    background-color: #f0f0f0;
+}
+.display{
+    display: flex;
+    background-color: chocolate;
+    width: 100%;
+    height: 30%;
+   
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+}
+.row1{
+display: flex;
+
+}
+.row1{
+    display: flex;
+    
+}
+.row1{
+    display: flex;
+    
+}
+.row1{
+    display: flex;
+    
+}
+.row1{
+    display: flex;
+    
+}
+.row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.row button {
+    flex: 1; /* cada botón ocupa el mismo espacio */
+}
+
+#del{
+    flex-grow: 2;
+}
+
+#cero{
+    flex-grow: 2;
+}
